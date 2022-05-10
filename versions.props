@@ -1,1 +1,2 @@
 org.junit.jupiter:* = 5.7.0
+org.slf4j:* = 1.7.36
