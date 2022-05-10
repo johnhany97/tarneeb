@@ -1,0 +1,10 @@
+# Run ./gradlew --write-locks to regenerate this file
+
+[Test dependencies]
+org.apiguardian:apiguardian-api:1.1.0 (4 constraints: 57436f9e)
+org.junit:junit-bom:5.7.0 (4 constraints: 7f4383aa)
+org.junit.jupiter:junit-jupiter-api:5.7.0 (3 constraints: cb1e30a5)
+org.junit.jupiter:junit-jupiter-engine:5.7.0 (2 constraints: 200e1c59)
+org.junit.platform:junit-platform-commons:1.7.0 (3 constraints: e529342a)
+org.junit.platform:junit-platform-engine:1.7.0 (2 constraints: b61946f3)
+org.opentest4j:opentest4j:1.2.0 (2 constraints: cd205b49)
