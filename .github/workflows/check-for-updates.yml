@@ -20,3 +20,4 @@ jobs:
           push-to-repo-token: ${{ secrets.GH_PUSH_TO_REPO_TOKEN }}
           commit-user: jayad-bot
           commit-email: jayad-bot@users.noreply.github.com
+          primary-branch: main
