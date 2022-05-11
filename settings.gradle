@@ -9,7 +9,7 @@ include "tarneeb-core"
 def isCiServer = System.getenv().containsKey("CI")
 buildCache {
     local {
-        isEnabled = !isCiServer
+        enabled = !isCiServer
     }
 }
 
