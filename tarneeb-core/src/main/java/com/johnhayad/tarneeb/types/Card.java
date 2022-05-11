@@ -1,7 +1,6 @@
 /*
- * (c) Copyright 2022 Palantir Technologies Inc. All rights reserved.
+ * (c) Copyright 2022 John H. Ayad. All rights reserved.
  */
-
 package com.johnhayad.tarneeb.types;
 
 import org.immutables.value.Value;

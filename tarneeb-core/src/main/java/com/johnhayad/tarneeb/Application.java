@@ -1,14 +1,15 @@
+/*
+ * (c) Copyright 2022 John H. Ayad. All rights reserved.
+ */
 package com.johnhayad.tarneeb;
 
-import org.apache.log4j.PropertyConfigurator;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
+import com.palantir.logsafe.logger.SafeLogger;
+import com.palantir.logsafe.logger.SafeLoggerFactory;
 
 public final class Application {
-    private static final Logger log = LoggerFactory.getLogger(Application.class);
+    private static final SafeLogger log = SafeLoggerFactory.get(Application.class);
 
     public static void main(String[] _args) {
-        PropertyConfigurator.configure(Application.class.getClassLoader().getResource("log4j.properties"));
         log.info("Hello world!");
     }
 
