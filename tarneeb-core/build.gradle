@@ -3,7 +3,7 @@ apply plugin: 'application'
 
 dependencies {
     implementation 'com.palantir.safe-logging:logger'
-    implementation 'org.slf4j:slf4j-simple'
+    runtimeOnly 'org.slf4j:slf4j-simple'
 
     annotationProcessor 'org.immutables:value'
     compileOnly 'org.immutables:value::annotations'
