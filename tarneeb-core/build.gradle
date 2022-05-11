@@ -19,5 +19,4 @@ test {
     useJUnitPlatform()
 }
 
-//sourceSets.main.java.srcDirs = ['src']
 mainClassName = "com.johnhayad.tarneeb.Application"
