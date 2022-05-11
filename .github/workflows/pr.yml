@@ -22,6 +22,6 @@ jobs:
           distribution: 'zulu'
       - uses: burrunan/gradle-cache-action@v1
         with:
-          job-id: build
-          arguments: build --no-daemon
+          job-id: build --scan
+          arguments: build
           gradle-distribution-sha-256-sum-warning: false
