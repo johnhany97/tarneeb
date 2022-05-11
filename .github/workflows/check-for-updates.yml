@@ -13,7 +13,7 @@ jobs:
           token: ${{ secrets.GH_PUSH_TO_REPO_TOKEN }}
       - uses: actions/setup-java@v2
         with:
-          java-version: '17'
+          java-version: '15'
           distribution: 'zulu'
       - uses: markelliot/update-gradle-deps@v1
         with:
