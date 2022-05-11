@@ -6,10 +6,10 @@ package com.johnhayad.tarneeb.types;
 import org.immutables.value.Value;
 
 @Value.Immutable
-public interface Card {
+public interface Card extends Comparable<Card> {
     Suit suit();
 
-    Value value();
+    Rank rank();
 
     enum Suit {
         SPADE,
@@ -18,7 +18,7 @@ public interface Card {
         CLUBS
     }
 
-    enum Value {
+    enum Rank {
         ONE,
         TWO,
         THREE,
@@ -31,6 +31,12 @@ public interface Card {
         JACK,
         QUEEN,
         KING
+    }
+
+    @Override
+    default int compareTo(Card otherCard) {
+        // TODO(jayad): implement me
+        return -1;
     }
 
     static Builder builder() {

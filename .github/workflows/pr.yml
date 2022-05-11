@@ -20,5 +20,7 @@ jobs:
         with:
           java-version: '15'
           distribution: 'zulu'
-      - name: Build
-        run: ./gradlew --no-daemon build
+      - uses: burrunan/gradle-cache-action@v1
+        with:
+          job-id: build
+          arguments: build --no-daemon
