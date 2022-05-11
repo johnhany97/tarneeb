@@ -1,5 +1,6 @@
 # Run ./gradlew --write-locks to regenerate this file
 ch.qos.reload4j:reload4j:1.2.19 (1 constraints: 8d0ae7ce)
+org.immutables:value:2.8.8 (1 constraints: 14051536)
 org.slf4j:slf4j-api:1.7.36 (2 constraints: d30f1abd)
 org.slf4j:slf4j-log4j12:1.7.36 (1 constraints: 43054b3b)
 org.slf4j:slf4j-reload4j:1.7.36 (1 constraints: bf09cfbc)
