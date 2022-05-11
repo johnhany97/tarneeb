@@ -1,4 +1,4 @@
-org.junit.jupiter:* = 5.7.0
+org.junit.jupiter:* = 5.8.2
 org.slf4j:* = 1.7.36
-org.immutables:* = 2.8.8
+org.immutables:* = 2.9.0
 com.palantir.safe-logging:logger = 1.26.0
