@@ -3,9 +3,12 @@
  */
 package com.johnhayad.tarneeb.types;
 
+import com.johnhayad.tarneeb.types.ImmutableCard.SuitBuildStage;
+import com.johnhayad.tarneeb.utils.ImmutablesOpinion;
 import org.immutables.value.Value;
 
 @Value.Immutable
+@ImmutablesOpinion
 public interface Card extends Comparable<Card> {
     Suit suit();
 
@@ -39,9 +42,7 @@ public interface Card extends Comparable<Card> {
         return -1;
     }
 
-    static Builder builder() {
-        return new Builder();
+    static SuitBuildStage builder() {
+        return ImmutableCard.builder();
     }
-
-    final class Builder extends ImmutableCard.Builder {}
 }
