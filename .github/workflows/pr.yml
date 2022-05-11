@@ -24,3 +24,4 @@ jobs:
         with:
           job-id: build
           arguments: build --no-daemon
+          gradle-distribution-sha-256-sum-warning: false
