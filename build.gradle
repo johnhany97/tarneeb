@@ -40,3 +40,10 @@ javaVersions {
     libraryTarget = 11
     runtime = 15
 }
+
+if (hasProperty('buildScan')) {
+    buildScan {
+        termsOfServiceUrl = 'https://gradle.com/terms-of-service'
+        termsOfServiceAgree = 'yes'
+    }
+}

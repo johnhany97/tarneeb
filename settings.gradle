@@ -6,19 +6,9 @@ rootProject.name = 'tarneeb'
 
 include "tarneeb-core"
 
-def isCiServer = System.getenv().containsKey("CI")
+boolean isCiServer = System.getenv().containsKey("CI")
 buildCache {
     local {
         enabled = !isCiServer
-    }
-}
-
-if (isCiServer) {
-    gradleEnterprise {
-        buildScan {
-            termsOfServiceUrl = "https://gradle.com/terms-of-service"
-            termsOfServiceAgree = "yes"
-            tag("CI")
-        }
     }
 }
