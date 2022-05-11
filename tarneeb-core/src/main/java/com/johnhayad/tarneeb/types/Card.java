@@ -4,6 +4,9 @@
 
 package com.johnhayad.tarneeb.types;
 
+import org.immutables.value.Value;
+
+@Value.Immutable
 public interface Card {
     Suit suit();
 
@@ -30,4 +33,10 @@ public interface Card {
         QUEEN,
         KING
     }
+
+    static Builder builder() {
+        return new Builder();
+    }
+
+    final class Builder extends ImmutableCard.Builder {}
 }
