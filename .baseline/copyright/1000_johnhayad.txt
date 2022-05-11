@@ -1,0 +1,1 @@
+(c) Copyright ${today.year} John H. Ayad. All rights reserved.
