@@ -23,5 +23,5 @@ jobs:
       - uses: burrunan/gradle-cache-action@v1
         with:
           job-id: build
-          arguments: build --no-daemon
+          arguments: build --scan
           gradle-distribution-sha-256-sum-warning: false
