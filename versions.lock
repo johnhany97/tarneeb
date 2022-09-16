@@ -4,9 +4,9 @@ com.palantir.safe-logging:logger:3.0.0 (1 constraints: 0505fa35)
 com.palantir.safe-logging:logger-slf4j:3.0.0 (1 constraints: fe0d5342)
 com.palantir.safe-logging:logger-spi:3.0.0 (2 constraints: 0b1e2f7a)
 com.palantir.safe-logging:safe-logging:3.0.0 (2 constraints: 741d733c)
-org.immutables:value:2.9.1 (1 constraints: 0e051136)
-org.slf4j:slf4j-api:2.0.0 (2 constraints: 0d1add5d)
-org.slf4j:slf4j-simple:2.0.0 (1 constraints: 0405f535)
+org.immutables:value:2.9.2 (1 constraints: 0f051236)
+org.slf4j:slf4j-api:2.0.1 (2 constraints: 0e1ade5d)
+org.slf4j:slf4j-simple:2.0.1 (1 constraints: 0505f635)
 
 [Test dependencies]
 org.junit:junit-bom:5.9.0 (4 constraints: 8743e7ac)
