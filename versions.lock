@@ -1,9 +1,9 @@
 # Run ./gradlew --write-locks to regenerate this file
 com.google.errorprone:error_prone_annotations:2.11.0 (3 constraints: 142eb4bb)
-com.palantir.safe-logging:logger:3.0.0 (1 constraints: 0505fa35)
-com.palantir.safe-logging:logger-slf4j:3.0.0 (1 constraints: fe0d5342)
-com.palantir.safe-logging:logger-spi:3.0.0 (2 constraints: 0b1e2f7a)
-com.palantir.safe-logging:safe-logging:3.0.0 (2 constraints: 741d733c)
+com.palantir.safe-logging:logger:3.1.0 (1 constraints: 0605fd35)
+com.palantir.safe-logging:logger-slf4j:3.1.0 (1 constraints: ff0d5642)
+com.palantir.safe-logging:logger-spi:3.1.0 (2 constraints: 0d1e647a)
+com.palantir.safe-logging:safe-logging:3.1.0 (2 constraints: 761da63c)
 org.immutables:value:2.9.2 (1 constraints: 0f051236)
 org.slf4j:slf4j-api:2.0.2 (2 constraints: 0f1adf5d)
 org.slf4j:slf4j-simple:2.0.2 (1 constraints: 0605f735)
