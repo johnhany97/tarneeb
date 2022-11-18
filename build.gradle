@@ -11,13 +11,13 @@ buildscript {
 }
 
 plugins {
-    id 'com.gradle.plugin-publish' version '1.0.0'
+    id 'com.gradle.plugin-publish' version '1.1.0'
     id 'com.palantir.git-version' version '0.15.0'
     id 'com.palantir.idea-test-fix' version '0.1.0'
     id 'com.palantir.baseline' version '4.183.0'
     id 'com.palantir.consistent-versions' version '2.11.0'
     id 'org.inferred.processors' version '3.7.0'
-    id 'com.markelliot.versions' version '0.23.0'
+    id 'com.markelliot.versions' version '0.24.0'
 }
 
 apply plugin: 'org.inferred.processors'
