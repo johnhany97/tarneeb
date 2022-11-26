@@ -17,7 +17,7 @@ plugins {
     id 'com.palantir.baseline' version '4.183.0'
     id 'com.palantir.consistent-versions' version '2.11.0'
     id 'org.inferred.processors' version '3.7.0'
-    id 'com.markelliot.versions' version '0.24.0'
+    id 'com.markelliot.versions' version '0.26.3'
 }
 
 apply plugin: 'org.inferred.processors'
